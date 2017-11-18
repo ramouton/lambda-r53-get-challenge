@@ -43,8 +43,8 @@ exports.handler = (event, context, callback) => {
           request_response = {
             isBase64Encoded: false,
             statusCode: 200,
-            headers: {'Content-type': 'application/json'},
-            body: JSON.stringify(data.Body)
+            headers: {'Content-type':data.ContentType,'Content-length':data.ContentLength},
+            body: data.Body.toString()
           };
           callback(null,request_response);
         }
