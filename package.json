@@ -1,0 +1,26 @@
+{
+  "name": "@ramouton/lambda-r53-get-challenge",
+  "description": "AWS Lambda Function get Challenge from API for Route53 DDNS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Raymond A. Mouton <raymond_mouton@icloud.com>",
+  "contributors": [
+    "Raymond A. Mouton <raymond_mouton@icloud.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramouton/lambda-r53-get-challenge.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ramouton/lambda-r53-get-challenge/issues"
+  },
+  "homepage": "https://github.com/ramouton/lambda-r53-get-challenge#readme",
+  "license": "NONE",
+  "keywords": [],
+  "dependencies": {
+    "aws-sdk": "^2.72.0"
+  }
+}
